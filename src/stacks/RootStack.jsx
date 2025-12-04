@@ -8,8 +8,14 @@ const RootStack = () => {
 
   return (
     <>
-      <Stack.Navigator initialRouteName='Signin'>
-        <Stack.Screen name="Signin" component={Signin} />
+      <Stack.Navigator initialRouteName="Signin">
+        <Stack.Screen
+          name="Signin"
+          component={Signin}
+          options={{
+            headerShown: false,
+          }}
+        />
       </Stack.Navigator>
     </>
   );
