@@ -1,4 +1,4 @@
-package com.revive
+package com.revivedebug
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
